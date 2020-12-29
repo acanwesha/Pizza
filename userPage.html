@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+    <style>
+      h3{
+        color:yellow;
+        text-align:center
+      }
+      a:link{
+        color:blanchedalmond;
+        text-decoration: none;
+        text-align: center;
+      }
+      a:visited{
+        color:blanchedalmond;
+        text-decoration: none;
+        text-align: center;
+      }
+      a:hover{
+        color:red;
+        text-decoration: none;
+        text-align: center;
+      }
+    </style>
+    <body  style="background-image: url('back.jpg')">
+        <!--nav-->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark" style="height: 120px;">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                    <img src="circle.png" alt="">
+                  </a>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+               
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link active btn btn-danger" href="index.html" style="margin:3px">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active btn btn-danger " href="menu.html"  style="margin:3px">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active btn btn-danger" href="about.html"  style="margin:3px">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active btn btn-danger" href="contact.html"  style="margin:3px">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active btn btn-danger" href="index.html"  style="margin:3px">Logout</a>
+                    </li>
+                    <li class="nav-item cart">
+                      <a class="nav-link active btn btn-danger" href="cart.html"  style="margin:3px"><i class="fa fa-shopping-cart"></i><span>0</span></a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </nav>
+        <hr>  
+        <!--nav completed-->
+        <!--Menu Displayk-->
+        <div class="container1">
+            <div class="image">
+              <img src="menu1.jpg">
+              <h3>Margherita</h3>
+              <h3>Rs.450</h3>
+              <a class="add-cart cart1" href="#">Add Cart</a> 
+            </div>
+            <div class="image">
+              <img src="menu2.jpg">
+              <h3>Farm House.</h3>
+              <h3>Rs.450</h3>
+              <a class="add-cart cart2" href="#">Add Cart</a> 
+            </div>
+            <div class="image">
+              <img src="menu3.jpg">
+              <h3>Deluxe Veggie</h3>
+              <h3>Rs.450</h3>
+              <a class="add-cart cart3" href="#">Add Cart</a> 
+            </div>
+          
+         
+            <div class="image">
+              <img src="menu4.jpg">
+              <h3>Veg Extravaganza.</h3>
+              <h3>Rs.450</h3>
+              <a class="add-cart cart4" href="#">Add Cart</a> 
+            </div>
+            
+            <div class="image">
+              <img src="menu5.jpg">
+              <h3>CHEESE N CORN</h3>
+              <h3>Rs.450</h3>
+              <a class="add-cart cart5" href="#">Add Cart</a> 
+            </div>
+            <div class="image">
+              <img src="menugarlic.jpg">
+              <h3>Garlic Bread</h3>
+              <h3>Rs.250</h3>
+              <a class="add-cart cart6" href="#">Add Cart</a> 
+            </div>
+          
+          
+            <div class="image" style="margin-left:450px">
+              <img src="menucoke.jpg">
+              <h3>Diet Coke</h3>
+              <h3>Rs.100</h3>
+              <a class="add-cart cart7" href="#">Add Cart</a> 
+            </div>
+          
+          
+        </div>
+        <script src="js/cart.js"></script>
+
+
+
+
+        <!--start of footer-->
+    <footer style="background-color:black ;color:white;text-align: center;">
+        <div class="container">
+          <div class="row">
+            <div class=col-md-2>
+              <b>ABOUT</b>
+              <br><br>
+              <p style="column-count: 2;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <div class=col-md-7>
+              <b>SERVICES</b>
+              <br><br>
+              <p>Cooked</p>
+              <p>Delivered</p>
+              <p>Quality Food</p>
+            </div>
+            <div class=col-md-3>
+              <b>HAVE ANY QUESTIONS?</b>
+              <br><br>
+              <p><i class="fa fa-map-marker" aria-hidden="true"></i>    203 Pizzaco, Vijayanagar, Bangalore, Karnataka</p>
+              <p><i class="fa fa-phone" aria-hidden="true"></i> +91 9876543214</p>
+              <p><i class="fa fa-envelope" aria-hidden="true"></i> pizzaco@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="footIcon">
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+          </div>
+          <p>&copy; 2020 Pizzaco.com<p></p>
+    </footer>
+    <!--End of Footer-->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
